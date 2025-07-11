@@ -174,3 +174,40 @@ img.rounded-circle:hover {
   70% { transform: translateY(-5px); }
   100% { transform: translateY(0); }
 }
+.container1 {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #007acc;
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+.skill-category {
+  margin-bottom: 30px;
+}
+
+.skill-category h2 {
+  color: #333;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.skill-category ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.skill-category li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 6px;
+}
